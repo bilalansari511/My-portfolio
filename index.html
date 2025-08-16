@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilal Ansari - Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Portfolio</a>
+            <button class="menu-toggle" id="menu-toggle">☰</button>
+            <ul class="nav-links" id="mobile-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="container home-content">
+            <h1>Hi, I'm <span class="gradient-text">Bilal Ansari</span></h1>
+            <p>Frontend Developer | React Enthusiast</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Bilal Ansari, a passionate frontend developer skilled in creating modern, responsive, and user-friendly websites.</p>
+            <p>Email: <a href="mailto:bilal.ans511@gmail.com">bilal.ans511@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you’d like to work together or have any questions, feel free to reach out!</p>
+            <a href="mailto:bilal.ans511@gmail.com" class="btn-primary">Send Email</a>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
